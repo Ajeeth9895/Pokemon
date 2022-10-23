@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-lg {
+  gap: 10px;
+}
+
+.card {
+  border: 2px solid black;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  background-color: cadetblue;
+  width: 100%;
+  color: rgb(58, 43, 43);
+  font-family: monospace;
+  border-radius: 5px;
+}
+
+.card-body {
+  background-color: skyblue;
+  border-radius: 5px 5px;
+}
+
+.card-img-top {
+  background-color: lightyellow;
+}
+
+.card-title {
+  padding-top: 8px;
+}
