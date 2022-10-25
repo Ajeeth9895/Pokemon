@@ -15,7 +15,7 @@ resData("https://pokeapi.co/api/v2/pokemon?offset=0&limit=55").then((res) => {
       let image = url.sprites.other.dream_world.front_default;
       let name = url.name;
       let weight = url.weight;
-      let moves = url.moves[i].move.name;
+      let moves = url.moves[0].move.name;
       let abilities = url.abilities[0].ability.name;
 
       let content = `
