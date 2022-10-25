@@ -40,6 +40,7 @@ resData("https://pokeapi.co/api/v2/pokemon?offset=0&limit=55").then((res) => {
   }
 })
 .catch((rej)=>{
+  //Error Handaling
   console.log(rej);
 })
 
